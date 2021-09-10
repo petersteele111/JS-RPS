@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Test Site</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css"/>
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+    
+    <div class="jumbotron text-center">
+        <h1 class="display-4 text-light">Rock, Paper, Scissors</h1>
+        <p class="lead text-light">This is a JavaScript version of RPS!</p>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <h2 class="p-5" id="playerPoints">Player Total: 0</h2>
+            </div>
+            <div class="col-6">
+                <h2 class="p-5" id="computerPoints">Computer Total: 0</h2>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <button class="btn col-3"><img class="img-fluid" id="rock" src="img/rock.jpg" alt="0"></button>
+            <button class="btn col-3"><img class="img-fluid" id="paper" src="img/paper.jpg" alt="1"></button>
+            <button class="btn col-3"><img class="img-fluid" id="scissor" src="img/scissor.jpg" alt="2"></button>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
